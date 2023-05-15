@@ -1,16 +1,31 @@
 fileFormatVersion: 2
-guid: 8f6a15a49b8411046aed800b1ac9d1cb
+guid: 03d55758bbcbadb48ad0826d111d7c65
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3170179398261220407
-    second: bird-potoo_0
+      213: -6766821324381516130
+    second: coinplusticket_0
   - first:
-      213: -7286540982482965408
-    second: bird-potoo_1
+      213: 4514187981396015277
+    second: coinplusticket_1
   - first:
-      213: -2903218484006989038
-    second: bird-potoo_2
+      213: -8559008933580800865
+    second: coinplusticket_2
+  - first:
+      213: 8326738374851549969
+    second: coinplusticket_3
+  - first:
+      213: -4294732425578607962
+    second: coinplusticket_4
+  - first:
+      213: -4726872251228481822
+    second: coinplusticket_5
+  - first:
+      213: 5340635069992357834
+    second: coinplusticket_6
+  - first:
+      213: -2552810752797583621
+    second: coinplusticket_7
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -33,7 +48,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -98,23 +112,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bird-potoo_0
+      name: coinplusticket_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7342f9bcd5dbefb20800000000000000
-      internalID: 3170179398261220407
+      spriteID: e9e83bd8bdb6712a0800000000000000
+      internalID: -6766821324381516130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bird-potoo_1
+      name: coinplusticket_1
       rect:
         serializedVersion: 2
         x: 64
@@ -149,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ce6c9059101ea90800000000000000
-      internalID: -7286540982482965408
+      spriteID: da872784d0e95ae30800000000000000
+      internalID: 4514187981396015277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bird-potoo_2
+      name: coinplusticket_2
       rect:
         serializedVersion: 2
         x: 128
@@ -170,8 +172,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2135a63bb22b5b7d0800000000000000
-      internalID: -2903218484006989038
+      spriteID: f9c7584f8ba483980800000000000000
+      internalID: -8559008933580800865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinplusticket_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bd3aa5f648e8370800000000000000
+      internalID: 8326738374851549969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinplusticket_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa09080d9b0664c0800000000000000
+      internalID: -4294732425578607962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinplusticket_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e610e64bb6c66eb0800000000000000
+      internalID: -4726872251228481822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinplusticket_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf43eddc4fbd1a40800000000000000
+      internalID: 5340635069992357834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coinplusticket_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6d3bc4528929cd0800000000000000
+      internalID: -2552810752797583621
       vertices: []
       indices: 
       edges: []
@@ -186,10 +293,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      bird-potoo_0: 3170179398261220407
-      bird-potoo_2: -2903218484006989038
-      bird-potoo_1: -7286540982482965408
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
