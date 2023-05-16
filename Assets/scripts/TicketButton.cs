@@ -11,8 +11,8 @@ public class TicketButton : MonoBehaviour
 
     public void AddTickets()
     {
-        Debug.Log(ticketCount);
         ticketCount = ticketCount + 3; // Voeg 3 tickets toe
+        Debug.Log(ticketCount);
     }
 
     private void Update()
