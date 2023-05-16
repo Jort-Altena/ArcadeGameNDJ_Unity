@@ -6,22 +6,18 @@ using TMPro;
 
 public class TicketButton : MonoBehaviour
 {
-    public Text ticketCountText; // Referentie naar het tekstobject waar het ticketaantal wordt weergegeven
+    [SerializeField] Text ScoreStatus; // Referentie naar het tekstobject waar het ticketaantal wordt weergegeven
     private int ticketCount = 0; // Huidig aantal tickets
-
-    private void Start()
-    {
-        UpdateTicketCountText();
-    }
 
     public void AddTickets()
     {
-        ticketCount += 3; // Voeg 3 tickets toe
-        UpdateTicketCountText();
+        Debug.Log(ticketCount);
+        ticketCount = ticketCount + 3; // Voeg 3 tickets toe
     }
 
-    private void UpdateTicketCountText()
+    private void Update()
     {
-        ticketCountText.text = "Tickets: " + ticketCount.ToString(); // Bijwerken van de tekst met het huidige ticketaantal
+        ScoreStatus.GetComponent<Text>();
+        ScoreStatus.text = "Tickets: " + ticketCount.ToString(); // Bijwerken van de tekst met het huidige ticketaantal
     }
 }
