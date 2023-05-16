@@ -9,7 +9,10 @@ public class SomScript : MonoBehaviour
     is het fout ga je naar de volgende vraag (hier zitten geen limitaties op*/
 
 
+    private int EersteGetal;
+    private int TweedeGetal;
 
+    //Er is een PseudoCode gemaakt (Deels)
 
 
 }
