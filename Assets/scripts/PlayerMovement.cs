@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.tag == "HitCollisionTag")
         {
-            //Debug.Log("Collided");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
@@ -26,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //Debug.Log("Spacebar pushed");
             RB.AddForce(transform.up * jumpPower);
         }
 

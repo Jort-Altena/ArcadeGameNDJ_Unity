@@ -21,4 +21,10 @@ public class UIButtons : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void StartMenu()
+    {
+        SceneManager.LoadScene("Start Screen");
+    }
+
 }
