@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class TicketButton : MonoBehaviour
 {
-<<<<<<< HEAD
+
     public Text ticketCountText; // Referentie naar het tekstobject waar het ticketaantal wordt weergegeven
     private int ticketCount = 0; // Huidig aantal tickets
 
