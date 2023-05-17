@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreStatus: {fileID: 1987325497}
+  ticketCount: 0
 --- !u!1 &1214125939
 GameObject:
   m_ObjectHideFlags: 0
