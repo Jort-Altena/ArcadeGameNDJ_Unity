@@ -3036,6 +3036,7 @@ GameObject:
   - component: {fileID: 674843039}
   - component: {fileID: 674843038}
   - component: {fileID: 674843037}
+  - component: {fileID: 674843043}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3167,12 +3168,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674843036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.61, y: 3.58, z: -0.109790236}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.8347, y: 4.0071, z: -0.109790236}
+  m_LocalScale: {x: 3.4228399, y: 3.155997, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &674843043
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674843036}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 271b434c962ecde40bd73ea9353e2c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &683825293
 GameObject:
   m_ObjectHideFlags: 3
@@ -3482,7 +3504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407837438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.61, y: 3.58, z: -10.10979}
+  m_LocalPosition: {x: -7.8347, y: 4.0071, z: -10.10979}
   m_LocalScale: {x: 0.30625, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7997,7 +8019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959455183}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.61, y: 3.58, z: -10.10979}
+  m_LocalPosition: {x: -7.8347, y: 4.0071, z: -10.10979}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 683825294}
