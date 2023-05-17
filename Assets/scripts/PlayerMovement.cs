@@ -17,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.tag == "HitCollisionTag")
         {
-            //Debug.Log("Collided");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
@@ -26,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //Debug.Log("Spacebar pushed");
             RB.AddForce(transform.up * jumpPower);
         }
 
