@@ -20,11 +20,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void Update()  
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             RB.AddForce(transform.up * jumpPower);
+            print("gwgw");
         }
 
     }
