@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScoringSystem : MonoBehaviour
 {
-    int currentScore = 0;
+    public int currentScore = 0;
     [SerializeField] Text ScoreText;
 
     private void OnTriggerEnter2D(Collider2D collision)
