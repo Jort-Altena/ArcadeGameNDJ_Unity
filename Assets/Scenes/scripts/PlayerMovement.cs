@@ -25,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             RB.AddForce(transform.up * jumpPower);
-            print("gwgw");
         }
 
     }
