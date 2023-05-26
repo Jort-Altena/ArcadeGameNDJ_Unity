@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 5e6e9522356598b4da8dcf0b488ed8e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6834482970986827059
+    second: scheetsart_1
+  - first:
+      213: -660813320867120103
+    second: scheetsart_2
+  - first:
+      213: -5709678259184747096
+    second: scheetsart_3
+  - first:
+      213: -2605361407470783614
+    second: scheetsart_4
+  - first:
+      213: -9068638429293573417
+    second: scheetsart_5
+  - first:
+      213: 2608010621205877750
+    second: scheetsart_6
+  - first:
+      213: 1393145343775523927
+    second: scheetsart_7
+  - first:
+      213: 3601577542709669897
+    second: scheetsart_8
+  - first:
+      213: 4973487627795208499
+    second: scheetsart_9
+  - first:
+      213: 6302754351376863813
+    second: scheetsart_10
+  - first:
+      213: 389758600697932547
+    second: scheetsart_11
+  - first:
+      213: -7118457711106679300
+    second: scheetsart_12
+  - first:
+      213: -5489672689265230214
+    second: scheetsart_13
+  - first:
+      213: 7606616127298458018
+    second: scheetsart_14
+  - first:
+      213: 8789508784240775751
+    second: scheetsart_15
+  - first:
+      213: 8203161016925682190
+    second: scheetsart_16
+  - first:
+      213: 2886695797987744144
+    second: scheetsart_17
+  - first:
+      213: -8046932865351261865
+    second: scheetsart_18
+  - first:
+      213: 4908272314793332002
+    second: scheetsart_25
+  - first:
+      213: 1329025214960283707
+    second: scheetsart_26
+  - first:
+      213: -7365043604164771784
+    second: scheetsart_27
+  - first:
+      213: 6586888466068702948
+    second: scheetsart_34
+  - first:
+      213: 8323029980043284579
+    second: scheetsart_35
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scheetsart_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 26
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d402d2d06f8de50800000000000000
+      internalID: 6834482970986827059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 27
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c7eda29c154d6f0800000000000000
+      internalID: -660813320867120103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 27
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adb58bdfd523c0b0800000000000000
+      internalID: -5709678259184747096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 27
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283313c8a95e7dbd0800000000000000
+      internalID: -2605361407470783614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 27
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da00817569b52280800000000000000
+      internalID: -9068638429293573417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_6
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 27
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f31c6797d3813420800000000000000
+      internalID: 2608010621205877750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_7
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 58
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754ca381f42755310800000000000000
+      internalID: 1393145343775523927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_8
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 41
+        width: 91
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900fb3071bf5bf130800000000000000
+      internalID: 3601577542709669897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_9
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 18
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339988595a0650540800000000000000
+      internalID: 4973487627795208499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_10
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 32
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5429d5c60b1e77750800000000000000
+      internalID: 6302754351376863813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_11
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 32
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be0ced163b86500800000000000000
+      internalID: 389758600697932547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_12
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 32
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd98dc4d68263d90800000000000000
+      internalID: -7118457711106679300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_13
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 32
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ebe2f46c3c0d3b0800000000000000
+      internalID: -5489672689265230214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_14
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 32
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1d162f011209960800000000000000
+      internalID: 7606616127298458018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_15
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 32
+        width: 104
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742d8d2abab9af970800000000000000
+      internalID: 8789508784240775751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_16
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 38
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aff219b7b77d170800000000000000
+      internalID: 8203161016925682190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_17
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 74
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0991cada88a9f0820800000000000000
+      internalID: 2886695797987744144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_18
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 75
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7516255813d835090800000000000000
+      internalID: -8046932865351261865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_25
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 38
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d04284aafad1440800000000000000
+      internalID: 4908272314793332002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_26
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30be3b3465a17210800000000000000
+      internalID: 1329025214960283707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_27
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8300f7a1ddb1ac990800000000000000
+      internalID: -7365043604164771784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_34
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 21
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6842b3924596b50800000000000000
+      internalID: 6586888466068702948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scheetsart_35
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 21
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36018676ba7518370800000000000000
+      internalID: 8323029980043284579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
