@@ -19,7 +19,7 @@ public class ScoringSystem : MonoBehaviour
 
     private void Update()
     {
-        ScoreText.GetComponent<Text>();
+      ScoreText.GetComponent<Text>();
         ScoreText.text = "Score: " + currentScore.ToString();
     }
 }
