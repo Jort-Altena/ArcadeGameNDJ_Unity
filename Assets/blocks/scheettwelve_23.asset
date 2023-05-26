@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: scheetsart_27
+  m_Name: scheettwelve_23
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -7365043604164771784, guid: 5e6e9522356598b4da8dcf0b488ed8e5, type: 3}
+  m_Sprite: {fileID: 814113264, guid: 084b34a9ea603374a8f01829255facf3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

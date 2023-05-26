@@ -75,6 +75,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -97,7 +98,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,6 +130,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -509,6 +522,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      all pixel art_6: 1615452244773622349
+      all pixel art_4: 2935011882238665980
+      all pixel art_15: -2585313295168223476
+      all pixel art_17: -997610971663215179
+      all pixel art_13: -1533317582600003993
+      all pixel art_16: 8824139758382474664
+      all pixel art_9: -3575054149365226321
+      all pixel art_8: 8060350985428971916
+      all pixel art_11: -3728033413135819691
+      all pixel art_14: -6012192754027580859
+      all pixel art_3: 4647002633424530277
+      all pixel art_0: 5391292871148580480
+      all pixel art_19: -6574918645744383291
+      all pixel art_10: -7325559259619241181
+      all pixel art_5: -6639680884563983735
+      all pixel art_12: 3698850690433408801
+      all pixel art_7: -7930412822147725409
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
