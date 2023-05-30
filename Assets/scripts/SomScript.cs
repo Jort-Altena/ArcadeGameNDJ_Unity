@@ -51,8 +51,6 @@ public class SomScript : MonoBehaviour
         ChangeButtons();
 
         GenerateWrongAnswers();
-
-        GoBackToMain();
     }
 
     void UpdateSom()
@@ -150,6 +148,7 @@ public class SomScript : MonoBehaviour
             scoringSystem.Tickets++;
         }
         Debug.Log(scoringSystem.currentScore);
+        GoBackToMain();
     }
 
     public void ButtonTwoPressed()
@@ -159,6 +158,7 @@ public class SomScript : MonoBehaviour
             scoringSystem.Tickets++;
         }
         Debug.Log(scoringSystem.currentScore);
+        GoBackToMain();
     }
 
     public void ButtonThreePressed()
@@ -168,6 +168,7 @@ public class SomScript : MonoBehaviour
             scoringSystem.Tickets++;
         }
             Debug.Log(scoringSystem.currentScore);
+        GoBackToMain();
     }
 
     void GoBackToMain()
