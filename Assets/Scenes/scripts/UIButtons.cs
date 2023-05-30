@@ -27,4 +27,9 @@ public class UIButtons : MonoBehaviour
         SceneManager.LoadScene("Start Screen");
     }
 
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
 }
