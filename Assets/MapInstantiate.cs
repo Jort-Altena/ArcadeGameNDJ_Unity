@@ -17,27 +17,29 @@ public class MapInstantiate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("m"))
-        {
-           Vector2 mapPosition = new Vector2(locationChanger, 0.0f);
-           locationChanger = locationChanger + mapLocation;
-            Instantiate(map, mapPosition, Quaternion.identity);
-            print("gwgw");
-        }
-        else if (Input.GetKeyDown(","))
-        {
-            Vector2 mapPosition = new Vector2(locationChanger, 0.0f);
-            locationChanger = locationChanger + mapLocation;
-            Instantiate(mapTwo, mapPosition, Quaternion.identity);
-            print("gwgw");
-        }
-        else if (Input.GetKeyDown("."))
-        {
-            Vector2 mapPosition = new Vector2(locationChanger, 0.0f);
-            locationChanger = locationChanger + mapLocation;
-            Instantiate(mapThree, mapPosition, Quaternion.identity);
-            print("gwgw");
-        }
+       
+        //int randomNumber = Random.Range(1, 4);
+        //switch (randomNumber)
+        //{
+           
+        //    case 1:
+        //        Vector2 mapPosition = new Vector2(locationChanger, 0.0f);
+        //        locationChanger = locationChanger + mapLocation;
+        //        Instantiate(map, mapPosition, Quaternion.identity);
+        //        break;
 
+        //    case 2:
+        //        mapPosition = new Vector2(locationChanger, 0.0f);
+        //        locationChanger = locationChanger + mapLocation;
+        //        Instantiate(mapTwo, mapPosition, Quaternion.identity);
+        //        break;
+        //    case 3:
+        //        mapPosition = new Vector2(locationChanger, 0.0f);
+        //        locationChanger = locationChanger + mapLocation;
+        //        Instantiate(mapThree, mapPosition, Quaternion.identity);
+        //        break;
+
+
+       // }
     }
 }
