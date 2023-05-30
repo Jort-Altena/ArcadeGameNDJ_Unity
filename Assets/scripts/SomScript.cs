@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
 public class SomScript : MonoBehaviour
 {
+
+    int QuestionStreak = 1;
 
     [SerializeField] Text ButtonOne;
     [SerializeField] Text ButtonTwo;
@@ -36,6 +39,11 @@ public class SomScript : MonoBehaviour
         ButtonThree.GetComponent<Text>();
 
 
+        GenerateSom();
+    }
+
+    void GenerateSom()
+    {
         UpdateSom();
 
         BerekenSom();
@@ -43,8 +51,9 @@ public class SomScript : MonoBehaviour
         ChangeButtons();
 
         GenerateWrongAnswers();
-    }
 
+        GoBackToMain();
+    }
 
     void UpdateSom()
     {
@@ -138,7 +147,7 @@ public class SomScript : MonoBehaviour
     {
         if (ButtonOneRight == true)
         {
-            scoringSystem.currentScore++;
+            scoringSystem.Tickets++;
         }
         Debug.Log(scoringSystem.currentScore);
     }
@@ -147,7 +156,7 @@ public class SomScript : MonoBehaviour
     {
         if (ButtonTwoRight == true)
         {
-            scoringSystem.currentScore++;
+            scoringSystem.Tickets++;
         }
         Debug.Log(scoringSystem.currentScore);
     }
@@ -156,9 +165,34 @@ public class SomScript : MonoBehaviour
     {
         if (ButtonThreeRight == true)
         {
-            scoringSystem.currentScore++;
+            scoringSystem.Tickets++;
         }
             Debug.Log(scoringSystem.currentScore);
     }
+
+    void GoBackToMain()
+    {
+
+        switch (QuestionStreak)
+        {
+            case 1:
+                QuestionStreak++;
+                GenerateSom();
+                break;
+            case 2:
+                QuestionStreak++;
+                GenerateSom();
+                break;
+            case 3:
+                QuestionStreak = 1;
+                SceneManager.LoadScene("Start Screen");
+                break;
+        }
+
+
+
+    }
+
+
 }
 
