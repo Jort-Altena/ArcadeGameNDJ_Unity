@@ -6,6 +6,7 @@ TagManager:
   tags:
   - HitCollisionTag
   - PointCollider
+  - DeathCollision
   layers:
   - Default
   - TransparentFX
