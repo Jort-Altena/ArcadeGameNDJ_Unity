@@ -52,7 +52,6 @@ public class SomScript : MonoBehaviour
 
         GenerateWrongAnswers();
     }
-
     void UpdateSom()
     {
         RndSomTeken = Random.Range(1, 5);
@@ -141,6 +140,7 @@ public class SomScript : MonoBehaviour
 
     }
 
+
     public void ButtonOnePressed()
     {
         if (ButtonOneRight == true)
@@ -171,6 +171,7 @@ public class SomScript : MonoBehaviour
         GoBackToMain();
     }
 
+
     void GoBackToMain()
     {
 
@@ -190,10 +191,7 @@ public class SomScript : MonoBehaviour
                 break;
         }
 
-
-
     }
-
 
 }
 

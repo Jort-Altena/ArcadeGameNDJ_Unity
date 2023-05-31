@@ -8,7 +8,6 @@ public class ScoringSystem : MonoBehaviour
 
     public int Tickets = 3;
 
-
     public int currentScore = 0;
     [SerializeField] Text ScoreText;
 
