@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 271741206}
   - component: {fileID: 271741209}
   - component: {fileID: 271741210}
+  - component: {fileID: 271741211}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -583,10 +584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7760f2a69e7b9634ab8e7b037176d848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonOne: {fileID: 159037030}
-  ButtonTwo: {fileID: 975020388}
-  ButtonThree: {fileID: 78505136}
-  SomDisplay: {fileID: 1122912686}
 --- !u!114 &271741210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,8 +596,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d8e467192ba384b808125f840c9e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 546368366}
+  highScoreText: {fileID: 546368366}
+  playerScore: 0
   currentScore: 0
-  ScoreText: {fileID: 546368366}
+  deleteScore: 0
+--- !u!114 &271741211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271741205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7760f2a69e7b9634ab8e7b037176d848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &433444241
 GameObject:
   m_ObjectHideFlags: 0
