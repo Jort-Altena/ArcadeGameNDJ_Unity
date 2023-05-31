@@ -12,7 +12,7 @@ public class ScoringSystem : MonoBehaviour
     [SerializeField] int playerScore = 0;
     Text text;
     string playerNameKey = "PlayerScore";
-    [SerializeField] int currentScore = 0;
+    public int currentScore = 0;
     private int highScore;
     [SerializeField] bool deleteScore = false;
 
