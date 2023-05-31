@@ -39,7 +39,7 @@ public class ScoringSystem : MonoBehaviour
     {
      
         scoreText.text = "Score: " + currentScore.ToString();
-        if (currentScore > highScore)
+        if (currentScore > PlayerPrefs.GetInt(playerNameKey,highScore))
         {
             highScore = currentScore;
             PlayerPrefs.GetInt(playerNameKey, highScore);
