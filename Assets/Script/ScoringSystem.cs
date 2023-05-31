@@ -7,6 +7,9 @@ using UnityEngine.UI;
 public class ScoringSystem : MonoBehaviour
 {
     //hier zijn alle variable gemaakt voor de score
+
+    public int Tickets = 3;
+
     [SerializeField] Text scoreText;
     [SerializeField] Text highScoreText;
     [SerializeField] int playerScore = 0;
