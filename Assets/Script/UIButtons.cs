@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class UIButtons : MonoBehaviour
 {
+    // Hier wordt alle buttons naar een ander scene gestuurd
     public void StartButton()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameScene");
     }
 
 
@@ -16,7 +17,7 @@ public class UIButtons : MonoBehaviour
         SceneManager.LoadScene("Insert Coin");
     }
 
-
+    //Hier verlaat je de applicatie.
     public void Quit()
     {
         Application.Quit();
