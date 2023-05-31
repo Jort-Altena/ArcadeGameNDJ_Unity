@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 3cc926bbd80884443af1873d29492351
+  - enabled: 1
+    path: Assets/Scenes/RekenSommen.unity
+    guid: 5abfa5ffd112acb47a2e03957ec3b362
   m_configObjects: {}

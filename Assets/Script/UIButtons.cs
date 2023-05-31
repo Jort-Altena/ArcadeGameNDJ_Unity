@@ -33,4 +33,9 @@ public class UIButtons : MonoBehaviour
         SceneManager.LoadScene("Tutorial");
     }
 
+    public void RekenSom()
+    {
+        SceneManager.LoadScene("Reken Sommen");
+    }
+
 }
